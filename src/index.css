@@ -25,3 +25,109 @@ code {
   flex-direction: column;
   height: 100vh;
 }
+
+.navbar, .color-nav, .black{
+  background-color:  #000;
+}
+
+.navLogo {
+  height: 3rem;
+}
+
+
+/* --------- */
+/* Home Page */
+/* --------- */
+
+.landing .name {
+  font-size: 48px;
+}
+
+.landing .description {
+  font-size: 26px;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 1px;
+  padding-left: 2rem;
+  z-index: 1;
+  color: #808080;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
+  font-size: 60px;
+}
+
+
+.waviy h1,
+.description {
+  position: relative;
+  display: inline-block;
+  color: #808080;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+}
+
+@keyframes waviy {
+
+  0%,
+  40%,
+  100% {
+    transform: translateY(0)
+  }
+
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+
+/* --------- */
+/* Footer */
+/* --------- */
+.footer {
+  background-color: #212529;
+  bottom: 0 !important;
+  padding-top: 14px !important;
+  padding-bottom: 8px !important;
+  margin-top: auto;
+  position: fixed;
+}
+
+.footer-copyright {
+  text-align: center !important;
+}
+
+.footer-body {
+  z-index: 1;
+  text-align: center !important;
+}
+
+.footerText {
+  font-size: 1.25rem;
+  color: #acb2b9;
+}
+
+.social-icons {
+  display: inline-block !important;
+  padding-right: 15px;
+  padding-left: 15px;
+}
