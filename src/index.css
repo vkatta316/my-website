@@ -131,3 +131,37 @@ code {
   padding-right: 15px;
   padding-left: 15px;
 }
+
+
+
+/* Contact */
+
+.mediaWrap {
+  border-left: 2px solid grey;
+  padding-left: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+ul {
+  list-style: none;
+}
+
+.infoType {
+  color: #f3f3f3;
+  ;
+  font-size: 15px;
+}
+
+.infoValue {
+  color: #009e66;
+}
+
+.infoValue a {
+  color: #009e66;
+}
+
+.infoDescription {
+  margin-bottom: 30px;
+  color: #009e66;
+}
