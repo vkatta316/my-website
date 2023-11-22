@@ -1,0 +1,87 @@
+[
+    {
+      "title": "Restaurant Feedback And View Menu",
+      "image": "images/bike.png",
+      "description": "Provide feedback for a Restaurant and view food menu options ",
+      "technologies": "React JS | JSON Server | React-Bootstrap",
+      "github": "https://github.com/vkatta316/restaurant-menu-listing",
+      "deployed": "https://github.com/vkatta316/restaurent-food-menu",
+      "bgcolor": "#d3cac5",
+      "id": "1"
+    },
+    {
+      "title": "Contacts Database",
+      "image": "./images/contactDatabase.png",
+      "technologies": "Node | Express.js | Pug | Better SQLite3 | CSS",
+      "description": " The Contacts database application will list all the contacts and from there the user can view, edit, delete, or add a contact.",
+      "github": "https://github.com/vkatta316/contacts",
+      "deployed": "",
+      "bgcolor": "#67b36f",
+      "id": "2"
+    },
+    {
+      "title": "Hotel Room Reservation",
+      "image": "./projectImages/Reservation.png",
+      "technologies": "JAVA | Jakarta EE | JPA, JSF, MySQL, ",
+      "description": "In this application, user book a room in a hotel, a customer must check the application to see if there is an empty room, the duration of the reservation and the overall cost.",
+      "github": "https://github.com/vkatta316/Hotel-Room-Reservation",
+      "deployed": "",
+      "bgcolor": "#fda9bf",
+      "id": "3"
+    },
+  
+    {
+      "title": "Online Movie Ticket Booking",
+      "image": "./projectImages/Booking.png",
+      "description": "This project is aimed at building an interface for an online movie ticket booking system. Giving customers a convenient way to buy movie tickets is the main objective of the online ticket reservation system.",
+      "technologies": "JavaFX | SceneBuilder | MySQL",
+      "github": "https://github.com/vkatta316/online-movie-ticketing",
+      "deployed": "",
+      "bgcolor": "#ffc1c1",
+      "id": "4"
+    },
+
+    {
+      "title": "Movie DB and Rating",
+      "image": "./projectImages/Rating.png",
+      "technologies": "Node | Express | Passport Authentication | Mongo DB | PUG | Bootstrap | CSS",
+      "description": "The objective of movie database/website is to help users find basic viewing basic information about movies such as synopsis, release year, ratings",
+      "github": "https://github.com/vkatta316/MovieDatabase",
+      "deployed": "",
+      "bgcolor": "#111111",
+      "id": "5"
+    },
+    {
+      "title": "Weather Forecast",
+      "image": "./projectImages/Weather.png",
+      "technologies": "Vanilla Javascript | HTML | CSS",
+      "description": "Team Dashboard is a Node command-line application that takes in information about employees to generate a dynamic HTML web page.",
+      "github": "https://github.com/vkatta316/weather-forecast",
+      "deployed": "",
+      "bgcolor": "#825930",
+      "id": "6"
+    },
+
+    {
+      "title": "My Profile ",
+      "image": "./projectImages/profile.png",
+      "technologies": "React | HTML | React Bootstrap | CSS",
+      "description": "My Projects information and job experience at various companies",
+      "github": "https://github.com/vkatta316/my-website",
+      "deployed": "",
+      "bgcolor": "#cf9800",
+      "id": "7"
+    },
+
+  
+    {
+      "title": "House Listing",
+      "image": "./projectImages/Listing.png",
+      "technologies": "React JS| Firebase| HTML | Bootstrap",
+      "description": "List your house online for sale/Rent",
+      "github": "https://github.com/vkatta316/house-listing",
+      "deployed": "",
+      "bgcolor": "#bfdaf2",
+      "id": "8"
+    }
+  ]

@@ -1,6 +1,6 @@
 import React from 'react'
 import PageHeader from '../header/PageHeader'
-
+import ContactForm from './ContactForm'
 import { motion } from 'framer-motion'
 
 function Contact() {
@@ -11,7 +11,7 @@ function Contact() {
       <div className="contactWrap container">
         <div className="myContact row">
           <div className="col-12 col-lg-6">
-            
+            <ContactForm />
           </div>
           <div className="col-12 col-lg-6">
             <motion.div className="contactInfo">
