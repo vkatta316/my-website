@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Container, Col } from "react-bootstrap"
+import { Card } from "react-bootstrap"
 
 function ProjectItem({ id, title, github, description, technologies, image, deployed, color }) {
     return (

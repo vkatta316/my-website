@@ -19,8 +19,8 @@ function About() {
   const handleDownload = () => {
     setDownloading(true);
     const link = document.createElement("a");
-    //link.href = resume;
-    //link.download = "Vinay-Chowdary-Katta-Resume.pdf";
+    link.href = resume;
+    link.download = "Vinay-Chowdary-Katta-Resume.pdf";
     link.onload = () => {
       link.remove();
       setDownloading(false);
